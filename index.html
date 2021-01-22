@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <script src="./css/jquery-2.0.2.min.js"></script>
     <script src="./css/clipboard.min.js"></script>
+    <script src="./css/jquery.SuperSlide.2.1.3.js"></script>
 </head>
 <body>
 <div class="wrap-body">
@@ -24,34 +25,47 @@
     <div class="img">
         <img src="./assets/5.jpeg" alt="">
     </div>
-    <div class="lo">
-        <div class="item btn">点击复制联系人（添加V）</div>
-        <div class="item btn2">点击复制联系人（添加V）</div>
+
+    <div class="txtScroll-left">
+        <div class="bd">
+            <ul class="infoList">
+                <li>
+                    <div class="item btn1" onclick="clickCopy('btn1', 'khs4218')">点击复制联系人（添加V）</div>
+                </li>
+                <li>
+                    <div class="item btn2" onclick="clickCopy('btn2', 'qqwweerr73')">点击复制联系人（添加V）</div>
+                </li>
+            </ul>
+        </div>
     </div>
 
+    <script type="text/javascript">
+        jQuery(".txtScroll-left").slide({
+            mainCell: ".bd ul",
+            autoPage: true,
+            effect: "left",
+            autoPlay: true,
+            scroll: 1,
+            vis: 1,
+            trigger: "click"
+        });
+    </script>
 
     <script>
-        const clipboard = new Clipboard('.btn', {
-            text: function () {
-                return 'khs4218';
-            }
-        });
 
-        clipboard.on('success', function (e) {
-            alert("复制成功!即将打开微信");
-            window.location = ('weixin://')
-        });
 
-        const clipboard2 = new Clipboard('.btn2', {
-            text: function () {
-                return 'qqwweerr73';
-            }
-        });
+        function clickCopy(dom, wx) {
+            const clipboard = new Clipboard('.' + dom, {
+                text: function () {
+                    return wx;
+                }
+            });
 
-        clipboard2.on('success', function (e) {
-            alert("复制成功!即将打开微信");
-            window.location = ('weixin://')
-        });
+            clipboard.on('success', function (e) {
+                alert("复制成功!即将打开微信");
+                window.location = ('weixin://')
+            });
+        }
     </script>
 </div>
 </body>
