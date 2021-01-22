@@ -4,7 +4,6 @@
 }
 
 html, body {
-    max-width: 750px;
     margin: 0 auto;
     background: red;
 }
@@ -17,13 +16,13 @@ html, body {
 .btn {
     display: flex;
     position: relative;
-    top: -80px;
     align-items: center;
     justify-content: center;
     width: 280px;
     height: 40px;
-    margin: 10px auto;
+    margin: -80px auto 0;
     background: linear-gradient(to right, #f0daa1, #dbaa5e);
     color: red;
     border-radius: 2px;
+    z-index: 9;
 }
