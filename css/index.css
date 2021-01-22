@@ -5,7 +5,12 @@
 
 html, body {
     margin: 0 auto;
-    background: red;
+}
+
+.wrap-body {
+    width: 750px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .wrap-body img {
