@@ -24,16 +24,31 @@
     <div class="img">
         <img src="./assets/5.jpeg" alt="">
     </div>
-    <div class="btn">点击复制联系人（添加客服V）</div>
+    <div class="lo">
+        <div class="item btn">点击复制联系人（添加V）</div>
+        <div class="item btn2">点击复制联系人（添加V）</div>
+    </div>
+
 
     <script>
         const clipboard = new Clipboard('.btn', {
             text: function () {
-                return 'stxlwx';
+                return 'khs4218';
             }
         });
 
         clipboard.on('success', function (e) {
+            alert("复制成功!即将打开微信");
+            window.location = ('weixin://')
+        });
+
+        const clipboard2 = new Clipboard('.btn2', {
+            text: function () {
+                return 'qqwweerr73';
+            }
+        });
+
+        clipboard2.on('success', function (e) {
             alert("复制成功!即将打开微信");
             window.location = ('weixin://')
         });
