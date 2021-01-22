@@ -1,191 +1,43 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Swiper demo</title>
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="./dist/css/swiper.min.css">
-
-    <!-- Demo styles -->
-    <style>
-        body {
-            background: #eee;
-            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-            font-size: 18px;
-            color:#000;
-            margin: 0;
-            padding: 0;
-        }
-        .swiper-wrapper{
-            transition-delay:.3s;
-        }
-        .swiper-container {
-            width: 100%;
-            height: 100vh;
-        }
-        .inner-slide {
-            display: flex;
-            width: 100%;
-        }
-        .inner-slide > div {
-            flex: 1;
-        }
-
-        .inner-slide img {
-            width: 80%;
-            height: 100%;
-        }
-
-        .swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: #fff;
-
-            /* Center slide text vertically */
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            -webkit-justify-content: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            -webkit-align-items: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        .swiper-slide:nth-child(2){
-            background:#3183ff;
-            color:#fff;}
-        .swiper-slide p{
-            transform:translateX(-200px);
-            opacity:0;
-            transition:all .4s;}
-        .ani-slide p{
-            transform:translateX(0);
-            opacity:1;
-        }
-        .contents {
-            position: relative;
-            display: inline-flex;
-            align-items: center;
-            justify-content: flex-start;
-        }
-        .contents div {
-
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>招聘简章</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./css/jquery-2.0.2.min.js"></script>
+    <script src="./css/clipboard.min.js"></script>
 </head>
 <body>
-<!-- Swiper -->
-<div class="swiper-container">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">
-            <p>撑着油纸伞，独自</p>
-            <p>彷徨在悠长、悠长</p>
-            <p>又寂寥的雨巷</p>
-            <p>我希望逢着</p>
-            <p>一个丁香一样地</p>
-            <p>结着愁怨的姑娘</p>
-            <p>她是有</p>
-            <p>丁香一样的颜色</p>
-            <p>丁香一样的芬芳</p>
-            <p>丁香一样的忧愁</p>
-        </div>
-        <div class="swiper-slide">
-            <p>在雨中哀怨</p>
-            <p>哀怨又彷徨</p>
-            <p>她彷徨在这寂寥的雨巷</p>
-            <p>撑着油纸伞</p>
-            <p>像我一样</p>
-            <p>像我一样地</p>
-            <p>默默彳亍着</p>
-            <p>冷漠、凄清，又惆怅</p>
-            <p>她默默地走近</p>
-            <p>走近，又投出</p>
-            <p>太息一般的眼光</p>
-            <p>她飘过</p>
-        </div>
-        <div class="swiper-slide">
-            <p>像梦一般地</p>
-            <p>像梦一般地凄婉迷茫</p>
-            <p>像梦中飘过</p>
-            <p>一枝丁香地</p>
-            <p>我身旁飘过这女郎</p>
-            <p>她静默地远了、远了</p>
-            <p>到了颓圮的篱墙</p>
-            <p>走尽这雨巷</p>
-            <p>在雨的哀曲里</p>
-        </div>
-        <div class="swiper-slide" style="background: url('https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2673674292,2540102232&fm=26&gp=0.jpg') 100%/100% no-repeat;">
-            <p>消了她的颜色</p>
-            <p>散了她的芬芳</p>
-            <p>消散了，甚至她的</p>
-            <p>太息般的眼光</p>
-            <p>丁香般的惆怅</p>
-        </div>
-        <div class="swiper-slide"><p>接下来请欣赏。。。。</p></div>
-        <div class="swiper-slide">
-            <div class="inner-slide">
-                <div>
-                    <p><img src="./vivi.jpg" alt=""></p>
-                </div>
-                <div class="contents">
-                    <div>
-                        <p>撑着油纸伞，独自</p>
-                        <p>彷徨在悠长、悠长</p>
-                        <p>又寂寥的雨巷</p>
-                        <p>我希望飘过</p>
-                        <p>一个丁香一样地</p>
-                        <p>结着愁怨的姑娘</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <p>这姑娘是不是很好看？</p>
-        </div>
-        <div class="swiper-slide">
-            <p>这姑娘真的很好看！！</p>
-        </div>
+<div class="wrap-body">
+    <div class="img">
+        <img src="./assets/1.jpeg" alt="">
     </div>
-    <div class="swiper-pagination"></div>
+    <div class="img">
+        <img src="./assets/2.jpeg" alt="">
+    </div>
+    <div class="img">
+        <img src="./assets/3.jpeg" alt="">
+    </div>
+    <div class="img">
+        <img src="./assets/4.jpeg" alt="">
+    </div>
+    <div class="img">
+        <img src="./assets/5.jpeg" alt="">
+    </div>
+    <div class="btn">点击复制联系人（添加客服V）</div>
+
+    <script>
+        const clipboard = new Clipboard('.btn', {
+            text: function () {
+                return 'stxlwx';
+            }
+        });
+
+        clipboard.on('success', function (e) {
+            alert("复制成功!即将打开微信");
+            window.location = ('weixin://')
+        });
+    </script>
 </div>
-
-<!-- Swiper JS -->
-<script src="./dist/js/swiper.min.js"></script>
-
-<!-- Initialize Swiper -->
-<script>
-    var swiper = new Swiper('.swiper-container',{
-        direction : 'vertical',
-        followFinger : false,
-        speed:800,
-        mousewheel: true,
-        pagination : {
-            el:'.swiper-pagination',
-        },
-        on:{
-            init:function(swiper){
-                slide=this.slides.eq(0);
-                slide.addClass('ani-slide');
-            },
-            transitionStart: function(){
-                for(i=0;i<this.slides.length;i++){
-                    slide=this.slides.eq(i);
-                    slide.removeClass('ani-slide');
-                }
-            },
-            transitionEnd: function(){
-                slide=this.slides.eq(this.activeIndex);
-                slide.addClass('ani-slide');
-            },
-        }
-    });
-
-</script>
 </body>
 </html>
