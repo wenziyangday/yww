@@ -1,72 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>招聘简章</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <script src="./css/jquery-2.0.2.min.js"></script>
-    <script src="./css/clipboard.min.js"></script>
-    <script src="./css/jquery.SuperSlide.2.1.3.js"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>GeoAR.js demo</title>
+    <script src='https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js'></script>
+    <script src='aframe-ar.js'></script>
 </head>
-<body>
-<div class="wrap-body">
-    <div class="img">
-        <img src="./assets/1.jpeg" alt="">
-    </div>
-    <div class="img">
-        <img src="./assets/2.jpeg" alt="">
-    </div>
-    <div class="img">
-        <img src="./assets/3.jpeg" alt="">
-    </div>
-    <div class="img">
-        <img src="./assets/4.jpeg" alt="">
-    </div>
-    <div class="img">
-        <img src="./assets/5.jpeg" alt="">
-    </div>
 
-    <div class="txtScroll-left">
-        <div class="bd">
-            <ul class="infoList">
-                <li>
-                    <div class="item btn1" onclick="clickCopy('btn1', 'khs4218')">点击复制联系人（添加V）</div>
-                </li>
-                <li>
-                    <div class="item btn2" onclick="clickCopy('btn2', 'qqwweerr73')">点击复制联系人（添加V）</div>
-                </li>
-            </ul>
-        </div>
-    </div>
+<link rel="stylesheet" href="./css/index.css">
 
-    <script type="text/javascript">
-        jQuery(".txtScroll-left").slide({
-            mainCell: ".bd ul",
-            autoPage: true,
-            effect: "left",
-            autoPlay: true,
-            scroll: 1,
-            vis: 1,
-            trigger: "click"
-        });
-    </script>
+<!-- Dynamically add places from Javascript -->
+<script src="./places.js"></script>
 
-    <script>
+<body style='margin: 0; overflow: hidden;'>
 
-
-        function clickCopy(dom, wx) {
-            const clipboard = new Clipboard('.' + dom, {
-                text: function () {
-                    return wx;
-                }
-            });
-
-            clipboard.on('success', function (e) {
-                alert("复制成功!即将打开微信");
-                window.location = ('weixin://')
-            });
-        }
-    </script>
-</div>
+<a-scene
+        cursor='rayOrigin: mouse; fuse: true; fuseTimeout: 0;'
+        raycaster="objects: [gps-entity-place];"
+        vr-mode-ui="enabled: false"
+        embedded
+        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
+    <a-camera gps-camera rotation-reader>
+    </a-camera>
+</a-scene>
 </body>
-</html>
