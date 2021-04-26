@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5f80ec4-6a22-40bb-973d-852797047b0b" name="Default Changelist" comment="test-ntf">
-      <change afterPath="$PROJECT_DIR$/aframe-look-at-component.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index-img.html" afterDir="false" />
+    <list default="true" id="c5f80ec4-6a22-40bb-973d-852797047b0b" name="Default Changelist" comment="test-place">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -56,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619408970698</updated>
       <workItem from="1619408971837" duration="2882000" />
-      <workItem from="1619417745252" duration="3961000" />
+      <workItem from="1619417745252" duration="4213000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1619415731350</created>
@@ -114,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619424846598</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test-place">
+      <created>1619426695916</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619426695916</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +143,7 @@
     <MESSAGE value="DEMO" />
     <MESSAGE value="test" />
     <MESSAGE value="test-ntf" />
-    <option name="LAST_COMMIT_MESSAGE" value="test-ntf" />
+    <MESSAGE value="test-place" />
+    <option name="LAST_COMMIT_MESSAGE" value="test-place" />
   </component>
 </project>
