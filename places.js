@@ -33,17 +33,17 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: "Your place name",
+            name: "中刻录",
             location: {
-                lat: 0, // add here latitude if using static data
-                lng: 0, // add here longitude if using static data
+                lat: 31.178862, // add here latitude if using static data
+                lng: 121.602465, // add here longitude if using static data
             }
         },
         {
-            name: 'Another place name',
+            name: '绿地',
             location: {
-                lat: 0,
-                lng: 0,
+                lat: 31.17755,
+                lng: 121.60324,
             }
         }
     ];
@@ -92,7 +92,7 @@ function renderPlaces(places) {
         const icon = document.createElement('a-image');
         icon.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude}`);
         icon.setAttribute('name', place.name);
-        icon.setAttribute('src', '../assets/map-marker.png');
+        icon.setAttribute('src', 'assets/map-marker.png');
 
         // for debug purposes, just show in a bigger scale, otherwise I have to personally go on places...
         icon.setAttribute('scale', '20, 20');
