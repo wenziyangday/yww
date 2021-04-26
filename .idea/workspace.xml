@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5f80ec4-6a22-40bb-973d-852797047b0b" name="Default Changelist" comment="test-ntf">
-      <change afterPath="$PROJECT_DIR$/aframe-ar-location-only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aframe-ar-nft.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aframe-ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aframe.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aframe-look-at-component.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-img.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -45,6 +43,9 @@
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/.." />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619408970698</updated>
       <workItem from="1619408971837" duration="2882000" />
-      <workItem from="1619417745252" duration="3191000" />
+      <workItem from="1619417745252" duration="3961000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1619415731350</created>
