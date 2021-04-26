@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5f80ec4-6a22-40bb-973d-852797047b0b" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/nft/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nft/trex-image-big.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nft/trex/scene.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nft/trex/scene.gltf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nft/trex/textures/Material_21_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nft/trex/textures/Material_21_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nft/trex/textures/Material_22_baseColor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nft/trex/textures/Material_22_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nft/trex/textures/Scene_-_Root_diffuse.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nft/trex/textures/Scene_-_Root_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nft/trex/trex-image/trex.fset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nft/trex/trex-image/trex.fset3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nft/trex/trex-image/trex.iset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -31,14 +44,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.." />
     </key>
   </component>
@@ -51,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619408970698</updated>
       <workItem from="1619408971837" duration="2882000" />
-      <workItem from="1619417745252" duration="2062000" />
+      <workItem from="1619417745252" duration="2595000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1619415731350</created>
@@ -95,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619423454723</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test">
+      <created>1619424117039</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619424117039</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
