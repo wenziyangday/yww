@@ -1,0 +1,75 @@
+body {
+  background: transparent;
+  font-family: "PingFang SC", Arial, sans-serif;
+  // #ifdef H5
+  //font-size: $uni-font-size-sm;
+  // #endif
+}
+
+//.status-margin-top {
+//  margin-top: $mr-status-bar-height;
+//}
+//
+//.status-padding-top {
+//  padding-top: $mr-status-bar-height;
+//}
+//
+//.navigator-margin-top {
+//  margin-top: $mr-navigator-height;
+//}
+
+.container-padding {
+  padding: 0 26rpx 21px;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  @extend .flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-space-around {
+  @extend .flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-space-between {
+  @extend .flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-space-evenly {
+  @extend .flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.margin-top {
+  margin-top: 20rpx;
+}
+
+/*单行文字，多行文字*/
+.single-line {
+  white-space: nowrap; /* 防止换行 */
+  overflow: hidden; /* 超出部分隐藏 */
+  text-overflow: ellipsis; /* 使用省略号表示省略的文本 */
+}
+
+.multi-line {
+  display: -webkit-box; /* 将选定的元素变为一个伸缩盒子 */
+  -webkit-box-orient: vertical; /* 设置边框交叉的排列方式 */
+  -webkit-line-clamp: 2; /* 显示的行数 */
+  overflow: hidden; /* 超出部分隐藏 */
+  text-overflow: ellipsis; /* 使用省略号表示省略的文本 */
+}
+
+
+
+
