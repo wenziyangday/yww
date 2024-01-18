@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as l,Q as a}from"./chunks/framework.10dabb5d.js";const f=JSON.parse('{"title":"Badge 徽标数","description":"","frontmatter":{},"headers":[],"relativePath":"basic/badge.md","filePath":"basic/badge.md"}'),n={name:"basic/badge.md"},e=a("",11),o=[e];function p(c,r,y,E,i,d){return t(),l("div",null,o)}const u=s(n,[["render",p]]);export{f as __pageData,u as default};

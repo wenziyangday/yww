@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.10dabb5d.js";const d=JSON.parse('{"title":"项目示例 TODO","description":"","frontmatter":{},"headers":[],"relativePath":"egs/pro.md","filePath":"egs/pro.md"}'),p={name:"egs/pro.md"},o=l("",10),t=[o];function e(c,E,r,y,i,g){return n(),a("div",null,t)}const h=s(p,[["render",e]]);export{d as __pageData,h as default};

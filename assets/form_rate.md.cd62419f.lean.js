@@ -1,0 +1,1 @@
+import{_ as s,o as l,c as t,Q as a}from"./chunks/framework.10dabb5d.js";const u=JSON.parse('{"title":"Rate 评分","description":"","frontmatter":{},"headers":[],"relativePath":"form/rate.md","filePath":"form/rate.md"}'),n={name:"form/rate.md"},e=a("",17),p=[e];function o(c,r,E,y,i,d){return l(),t("div",null,p)}const f=s(n,[["render",o]]);export{u as __pageData,f as default};

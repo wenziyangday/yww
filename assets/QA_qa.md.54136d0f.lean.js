@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as l,Q as i}from"./chunks/framework.10dabb5d.js";const m=JSON.parse('{"title":"QA","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"QA/qa.md","filePath":"QA/qa.md"}'),r={name:"QA/qa.md"},t=i("",21),o=[t];function h(n,s,d,u,c,_){return e(),l("div",null,o)}const f=a(r,[["render",h]]);export{m as __pageData,f as default};

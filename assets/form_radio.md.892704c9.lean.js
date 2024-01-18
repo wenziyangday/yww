@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.10dabb5d.js";const u=JSON.parse('{"title":"Radio 单选框组件","description":"","frontmatter":{},"headers":[],"relativePath":"form/radio.md","filePath":"form/radio.md"}'),p={name:"form/radio.md"},t=l("",25),o=[t];function e(c,r,E,y,i,d){return n(),a("div",null,o)}const F=s(p,[["render",e]]);export{u as __pageData,F as default};

@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.10dabb5d.js";const u=JSON.parse('{"title":"Form 表单","description":"","frontmatter":{},"headers":[],"relativePath":"form/form.md","filePath":"form/form.md"}'),p={name:"form/form.md"},o=l("",36),t=[o];function e(c,r,E,y,i,d){return n(),a("div",null,t)}const m=s(p,[["render",e]]);export{u as __pageData,m as default};

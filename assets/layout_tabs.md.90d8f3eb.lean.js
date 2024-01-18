@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.10dabb5d.js";const g=JSON.parse('{"title":"Tabs 标签","description":"","frontmatter":{},"headers":[],"relativePath":"layout/tabs.md","filePath":"layout/tabs.md"}'),p={name:"layout/tabs.md"},t=l("",17),e=[t];function o(c,r,E,y,i,d){return n(),a("div",null,e)}const u=s(p,[["render",o]]);export{g as __pageData,u as default};

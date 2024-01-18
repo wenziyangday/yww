@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.10dabb5d.js";const F=JSON.parse('{"title":"Card卡片","description":"","frontmatter":{},"headers":[],"relativePath":"others/card.md","filePath":"others/card.md"}'),p={name:"others/card.md"},o=l("",25),t=[o];function e(c,r,E,y,i,d){return n(),a("div",null,t)}const u=s(p,[["render",e]]);export{F as __pageData,u as default};
