@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,V as n}from"./chunks/framework.j2uNBPO8.js";const F=JSON.parse('{"title":"Type","description":"","frontmatter":{"outline":"deep"},"headers":[],"relativePath":"ts/type.md","filePath":"ts/type.md"}'),h={name:"ts/type.md"},k=n("",19),l=[k];function p(t,e,E,r,d,g){return a(),i("div",null,l)}const c=s(h,[["render",p]]);export{F as __pageData,c as default};
