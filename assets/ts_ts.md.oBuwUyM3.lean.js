@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as s}from"./chunks/framework.9nulytGH.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"home","hero":{"name":"随笔杂集","tagline":"ts"}},"headers":[],"relativePath":"ts/ts.md","filePath":"ts/ts.md"}'),a={name:"ts/ts.md"};function o(r,n,c,i,m,p){return s(),e("div")}const l=t(a,[["render",o]]);export{d as __pageData,l as default};
